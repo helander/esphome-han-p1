@@ -1,6 +1,6 @@
 ---
 substitutions:
-  device_name: slimmelezer
+  device_name: esphome-han-p1
   device_description: "DIY P1 module to read your smart meter"
     
 esphome:
@@ -11,8 +11,8 @@ esphome:
   board: d1_mini
   name_add_mac_suffix: false
   project:
-    name: zuidwijk.slimmelezer
-    version: "2.0"
+    name: esphome-han-p1
+    version: "1.0"
   on_boot:
     then:
       - if:
@@ -47,10 +47,6 @@ logger:
 
 ota:
 
-# Dashboard doesnt work as I want, so disabled for now
-#dashboard_import:
-#  package_import_url: github://zuidwijk/dsmr/slimmelezer.yaml
-
 web_server:
   port: 80
 
@@ -71,8 +67,6 @@ globals:
 dsmr:
   id: dsmr_instance
   max_telegram_length: 1700
-  # For Luxembourg users set here your decryption key
-  #decryption_key: !secret decryption_key // enable this when using decryption for Luxembourg; key like '00112233445566778899AABBCCDDEEFF'
 
 sensor:
   - platform: dsmr
@@ -150,11 +144,11 @@ text_sensor:
       name: "DSMR Version Belgium"
   - platform: wifi_info
     ip_address:
-      name: "SlimmeLezer IP Address"
+      name: "ESPHOME-HAN-P1 IP Address"
     ssid:
-      name: "SlimmeLezer Wi-Fi SSID"
+      name: "ESPHOME-HAN-P1 Wi-Fi SSID"
     bssid:
-      name: "SlimmeLezer Wi-Fi BSSID"
+      name: "ESPHOME-HAN-P1 Wi-Fi BSSID"
   - platform: version
     name: "ESPHome Version"
     hide_timestamp: true
