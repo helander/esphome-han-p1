@@ -1,6 +1,6 @@
 # About
 
-Add some information about your project here.
+Firmware for SlimmeLezer device, to be used in contexts where no Home Assistant is available.
 
 # Installation
 
