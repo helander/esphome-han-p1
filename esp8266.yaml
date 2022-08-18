@@ -51,7 +51,8 @@ web_server:
   port: 80
   
 mqtt:
-  broker: 192.168.200.41
+  broker: 192.168.200.1
+  topic_prefix: "sandgatan45"
 
 uart:
   baud_rate: 115200
