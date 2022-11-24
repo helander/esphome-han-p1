@@ -110,15 +110,15 @@ sensor:
 #      name: "Current Phase 2"
 #    current_l3:
 #      name: "Current Phase 3"
-#    power_delivered_l1:
-#      name: "Power Consumed Phase 1"
-#      accuracy_decimals: 3
-#    power_delivered_l2:
-#      name: "Power Consumed Phase 2"
-#      accuracy_decimals: 3
-#    power_delivered_l3:
-#      name: "Power Consumed Phase 3"
-#      accuracy_decimals: 3
+    power_delivered_l1:
+      name: "Power Consumed Phase 1"
+      accuracy_decimals: 3
+    power_delivered_l2:
+      name: "Power Consumed Phase 2"
+      accuracy_decimals: 3
+    power_delivered_l3:
+      name: "Power Consumed Phase 3"
+      accuracy_decimals: 3
 #    power_returned_l1:
 #      name: "Power Produced Phase 1"
 #      accuracy_decimals: 3
