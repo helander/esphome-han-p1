@@ -86,12 +86,12 @@ sensor:
 #      name: "Energy Produced Tariff 1"
 #    energy_returned_tariff2:
 #      name: "Energy Produced Tariff 2"
-#    power_delivered:
-#      name: "Power Consumed"
-#      accuracy_decimals: 3
-#    power_returned:
-#      name: "Power Produced"
-#      accuracy_decimals: 3
+    power_delivered:
+      name: "Power Consumed"
+      accuracy_decimals: 3
+    power_returned:
+      name: "Power Produced"
+      accuracy_decimals: 3
 #    electricity_failures:
 #      name: "Electricity Failures"
 #      icon: mdi:alert
@@ -119,15 +119,15 @@ sensor:
     power_delivered_l3:
       name: "Power Consumed Phase 3"
       accuracy_decimals: 3
-#    power_returned_l1:
-#      name: "Power Produced Phase 1"
-#      accuracy_decimals: 3
-#    power_returned_l2:
-#      name: "Power Produced Phase 2"
-#      accuracy_decimals: 3
-#    power_returned_l3:
-#      name: "Power Produced Phase 3"
-#      accuracy_decimals: 3
+    power_returned_l1:
+      name: "Power Produced Phase 1"
+      accuracy_decimals: 3
+    power_returned_l2:
+      name: "Power Produced Phase 2"
+      accuracy_decimals: 3
+    power_returned_l3:
+      name: "Power Produced Phase 3"
+      accuracy_decimals: 3
 #    gas_delivered:
 #      name: "Gas Consumed"
 #    gas_delivered_be:
